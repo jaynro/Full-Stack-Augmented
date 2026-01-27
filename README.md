@@ -1,118 +1,147 @@
-# 🚀 AI-Augmented Engineering: Java Backend Training Plan
+# AI-Augmented Full-Stack Developer Training Plan
 
-## Objective
-Transition the backend team from **“using AI tools”** to **“AI-Augmented Engineering”**, establishing a standardized workflow for:
-
-- GitHub Codespaces
-- Spec-Driven Development
-- Agentic Modernization
+This is an 8-week, part-time (8–10 hrs/week) upskilling path designed for backend Java developers with minimal front-end experience. It will enable your team to become **AI-augmented full-stack developers**, leveraging tools like GitHub Copilot, Angular, Spring Boot, and GitHub Codespaces.
 
 ---
 
-## 🟢 Level 100: The Deterministic Environment
+## 🗓 Week 1: Generative AI + GitHub Copilot Setup
 
-### Focus
-Eliminating *“it works on my machine”* and establishing the infrastructure required for AI agents.
+**Goals:**
+- Learn generative AI basics
+- Set up GitHub Copilot and test it in IDE
 
-The foundation of AI augmentation is a **standardized, containerized environment**.  
-If the AI (or a teammate) cannot deterministically run the code, automation fails.
+**Resources:**
+- [Fundamentals of Generative AI (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)
+- [Accelerate App Dev with GitHub Copilot – Module 1](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/)
 
-### Resources
-
-| Resource | Type | Est. Time | Description |
-|--------|------|-----------|-------------|
-| Introduction to GitHub Codespaces | 🎓 Course | 1 Hour | Start here. Learn to configure `devcontainer.json`. Crucial because AI agents work best in standardized containers, not messy local machines. |
-|  | 📄 Guide | 30 Min | Official guide on configuring JDK, Maven/Gradle, and VS Code extensions inside the container so the AI has full context. |
-| GitHub Copilot Fundamentals | 🎓 Course | 1 Hour | Baseline theory on how GenAI works to manage expectations regarding hallucinations. |
-|  | 📺 Video | 15 Min | Java-specific patterns: generating boilerplate, unit tests, and explaining legacy code. |
-
-**Links**
-- https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-java-project-for-codespaces  
-- https://learn.microsoft.com/en-us/shows/github-copilot-series/copilot-for-java
+**Activities:**
+- Complete the Microsoft Learn module on generative AI
+- Install Copilot in VS Code and experiment with autocomplete
+- Write comments and let Copilot generate functions
 
 ---
 
-## 🟡 Level 200: Operational Competence & Prompt Engineering
+## 🗓 Week 2: Copilot + Prompt Engineering
 
-### Focus
-Moving beyond *“chatting with AI”* to **structured engineering prompts** and **automated testing**.
+**Goals:**
+- Master prompt crafting
+- Use Copilot in test generation
 
-Java developers must learn to *speak the language of the model* using:
-- Context (files, folders, tabs)
-- Constraints (frameworks, Java versions, build tools)
+**Resources:**
+- [Prompt Engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
+- [GitHub Copilot for Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
 
-### Resources
-
-| Resource | Type | Est. Time | Description |
-|--------|------|-----------|-------------|
-| Prompt Engineering with Copilot | 🎓 Course | 1 Hour | Critical skill. Learn the **3S framework** (Simple, Specific, Short) and how to manage the context window. |
-| Copilot for SDLC | 🎓 Path | 6 Hours | Deep dive into full SDLC integration of Copilot. |
-| Diffblue Cover | 🛠️ Tool | 45 Min | Autonomous Java unit-test generation by analyzing bytecode. Essential for protecting legacy code before refactoring. |
-| AI-Driven Test Analysis | 📺 Video | 10 Min | Using AI to analyze behavior and generate edge-case tests, not just line coverage. |
-
-**Links**
-- https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/  
-- https://docs.diffblue.com/get-started/get-started/get-started-cover-plugin  
-- https://www.youtube.com/watch?v=N8MUSOk-A08
+**Activities:**
+- Learn how to write precise prompts
+- Practice prompt engineering in both Java and Python
+- Try Copilot Chat to explain/refactor unfamiliar code
 
 ---
 
-## 🟠 Level 300: Advanced Workflows & Modernization
+## 🗓 Week 3: Angular Fundamentals
 
-### Focus
-Using **AI Agents** to refactor legacy systems and manage security.
+**Goals:**
+- Learn Angular from scratch
+- Understand component architecture
 
-At this stage, developers stop typing code and start **orchestrating change**.
+**Resources:**
+- [Getting Started with Angular (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started)
+- [Angular Tutorial (Angular.dev)](https://angular.dev/tutorial)
 
-### Resources
-
-| Resource | Type | Est. Time | Description |
-|--------|------|-----------|-------------|
-| Java App Modernization with Copilot | 📄 Guide | 1 Hour | Using *Agent Mode* to upgrade Java 8 → 21, fix breaking changes, and migrate Spring Boot versions. |
-| Rewrite with New Java Syntax | 📄 Blog | 15 Min | Modernize verbose code (anonymous classes → lambdas, records, streams). |
-| Spring AI & ChatClient | 📺 Video | 30 Min | Moving from using AI to building AI apps. Learn ChatClient API for LLM integration. |
-| GitHub Advanced Security | 🎓 Course | 2 Hours | AI-powered scanning (CodeQL) to find vulnerabilities missed by traditional linters. |
-
-**Links**
-- https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-may-2024/  
-- https://www.youtube.com/watch?v=daPwd4DnEfA  
-- https://github.com/services/ghas-developer-training
+**Activities:**
+- Follow a To-Do app tutorial
+- Use Copilot to generate component logic and HTML
+- Refresh TypeScript + HTML/CSS basics if needed
 
 ---
 
-## 🔴 Level 400: The Future (Spec-Driven & AI-Native)
+## 🗓 Week 4: Java + Angular Full-Stack CRUD App
 
-### Focus
-Changing the **SDLC paradigm entirely**.
+**Goals:**
+- Build your first full-stack app
+- Connect Angular frontend with Spring Boot backend
 
-Moving from **“Vibe Coding” (guessing)** to **“Spec-Driven Development” (architecting)**.
+**Resources:**
+- [Spring Boot + Angular CRUD Tutorial (HowToDoInJava)](https://howtodoinjava.com/spring-boot/angular-crud-example/)
+- [GitHub Blog: TDD with Copilot](https://github.blog/2022-11-03-ai-code-generation-for-test-driven-development/)
 
-### Resources
-
-| Resource | Type | Est. Time | Description |
-|--------|------|-----------|-------------|
-| GitHub Spec Kit | 🛠️ Repo | 2 Hours | Spec-Driven Development toolkit. Learn `constitution.md` and `/speckit.plan` to generate code from specs, not vibes. |
-| Spec-Driven Development Theory | 📄 Article | 20 Min | Why vibe coding fails in enterprise environments and why specs become the source of truth. |
-| Cursor AI IDE | 📄 Guide | 45 Min | IDE that indexes the entire codebase for superior context awareness. |
-| OpenAPI → Java with AI | 📄 Tutorial | 30 Min | Generate Java scaffolding directly from Swagger/OpenAPI specs to enforce contract compliance. |
-
-**Links**
-- https://github.com/github/spec-kit  
-- https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/  
-- https://www.codecademy.com/article/how-to-use-cursor-ai-a-complete-guide-with-practical-examples  
+**Activities:**
+- Build a user management system (CRUD)
+- Use Copilot to scaffold service/repo code
+- Try TDD for backend with Copilot-generated tests
 
 ---
 
-## 🛠️ Recommended Tool Stack
+## 🗓 Week 5: DevOps Tools + Codespaces + GitHub CLI
 
-- **IDE:** VS Code (Java Extension Pack) **or** Cursor  
-- **Environment:** Docker Desktop + Dev Containers (`devcontainer.json`)  
-- **Agent:** GitHub Copilot (Business / Enterprise)  
-- **Testing:** Diffblue Cover (legacy & regression) + CodiumAI (new logic)  
-- **AI Framework:** Spring AI (RAG / LLM applications)  
-- **Methodology:** GitHub Spec Kit (Spec-Driven Development)
+**Goals:**
+- Learn GitHub Codespaces and CLI
+- Understand dev containers and automation basics
+
+**Resources:**
+- [GitHub Codespaces Java Setup](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces)
+- [Taking Angular to Codespace (Dev.to)](https://dev.to/github/using-angular-with-github-codespaces-4peb)
+- [GitHub CLI Quickstart](https://cli.github.com/manual/)
+
+**Activities:**
+- Launch and develop in Codespace
+- Customize a devcontainer with Java + Angular
+- Use GitHub CLI to create issues or PRs
 
 ---
 
-> **Outcome:**  
-> Engineers evolve from *AI users* → *AI-augmented system designers* with deterministic environments, specs as contracts, and agents as collaborators.
+## 🗓 Week 6: Capstone Project (Part 1) – Setup & Backend
+
+**Goals:**
+- Plan and scaffold a full-stack app
+- Start implementing backend
+
+**Capstone Ideas:**
+- Task Manager with categories, status, due dates
+- Admin Dashboard for managing items
+
+**Activities:**
+- Design REST APIs
+- Generate Spring Boot controllers, services using Copilot
+- Write tests with Copilot (TDD)
+
+---
+
+## 🗓 Week 7: Capstone Project (Part 2) – Frontend + AI Integration
+
+**Goals:**
+- Complete frontend with Angular
+- Integrate an AI feature (e.g. task suggestion)
+
+**Resources:**
+- [OpenAI API Docs](https://platform.openai.com/docs/)
+- [Telerik: Integrate GPT with Angular](https://www.telerik.com/blogs/how-to-integrate-openai-gpt-angular)
+
+**Activities:**
+- Build Angular components for task management
+- Call OpenAI API to suggest or summarize tasks
+- Improve UI with Copilot and Angular Material
+
+---
+
+## 🗓 Week 8: Wrap-up, Optimize, Reflect
+
+**Goals:**
+- Polish the capstone
+- Document learnings
+- Use Copilot for refactoring
+
+**Activities:**
+- Use Copilot Chat to review and optimize code
+- Finalize tests and documentation
+- Hold a team demo/showcase
+
+---
+
+## ✅ Outcomes
+
+By the end of this program, your team will:
+- Understand how to use GitHub Copilot and prompt engineering
+- Build full-stack apps using Java + Angular
+- Work in GitHub Codespaces with CLI and GitHub Actions
+- Integrate real AI features in their apps
