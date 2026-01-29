@@ -1,147 +1,224 @@
 # AI-Augmented Full-Stack Developer Training Plan
 
-This is an 8-week, part-time (8–10 hrs/week) upskilling path designed for backend Java developers with minimal front-end experience. It will enable your team to become **AI-augmented full-stack developers**, leveraging tools like GitHub Copilot, Angular, Spring Boot, and GitHub Codespaces.
+This repository defines an **8-week, part-time (8–10 hrs/week)** upskilling program for **backend Java developers** with minimal frontend experience.  
+The objective is to transition the team from *traditional backend development* to **AI-augmented full-stack engineering** using:
+
+- GitHub Copilot (code + tests + refactoring)
+- Angular (frontend)
+- Spring Boot (backend)
+- GitHub Codespaces & CLI (dev environment + workflow)
+- AI APIs for real application features
 
 ---
 
-## 🗓 Week 1: Generative AI + GitHub Copilot Setup
+## 🎯 Program Objectives
+
+By the end of this program, participants will be able to:
+
+- Use **Generative AI and GitHub Copilot** effectively with strong prompt engineering
+- Build **full-stack applications** using Java + Angular
+- Work in **deterministic, cloud-based dev environments** (Codespaces)
+- Apply **TDD and refactoring** with AI assistance
+- Integrate **real AI features** into production-style applications
+
+---
+
+## 🟢 Phase 1: Generative AI Foundations + GitHub Copilot Mastery
 
 **Goals:**
-- Learn generative AI basics
-- Set up GitHub Copilot and test it in IDE
+- Understand generative AI fundamentals
+- Install and configure GitHub Copilot
+- Learn effective prompt engineering
+- Use Copilot for code generation, refactoring, and test creation
 
-**Resources:**
-- [Fundamentals of Generative AI (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)
-- [Accelerate App Dev with GitHub Copilot – Module 1](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/)
+**Learning Resources:**
+- Fundamentals of Generative AI (Microsoft Learn)  
+  https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/
+- Accelerate App Development with GitHub Copilot  
+  https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/
+- Prompt Engineering with GitHub Copilot  
+  https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/
+- GitHub Copilot for Python  
+  https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/
 
-**Activities:**
-- Complete the Microsoft Learn module on generative AI
-- Install Copilot in VS Code and experiment with autocomplete
-- Write comments and let Copilot generate functions
+**Hands-on Activities:**
+- Complete Generative AI fundamentals module
+- Install GitHub Copilot in VS Code
+- Practice:
+  - Comment-to-code generation
+  - Inline autocomplete
+  - Copilot Chat (explain, refactor, summarize)
+- Apply prompt engineering in:
+  - Java (services, controllers, unit tests)
+  - Python (simple scripts and utilities)
+- Use Copilot to:
+  - Generate unit tests
+  - Refactor existing logic
+  - Explain unfamiliar codebases
 
 ---
 
-## 🗓 Week 2: Copilot + Prompt Engineering
-
-**Goals:**
-- Master prompt crafting
-- Use Copilot in test generation
-
-**Resources:**
-- [Prompt Engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
-- [GitHub Copilot for Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
-
-**Activities:**
-- Learn how to write precise prompts
-- Practice prompt engineering in both Java and Python
-- Try Copilot Chat to explain/refactor unfamiliar code
-
----
-
-## 🗓 Week 3: Angular Fundamentals
+## 🟦 Phase 2: Angular Fundamentals
 
 **Goals:**
 - Learn Angular from scratch
-- Understand component architecture
+- Understand component-based architecture
+- Get comfortable with TypeScript + templates
 
-**Resources:**
-- [Getting Started with Angular (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started)
-- [Angular Tutorial (Angular.dev)](https://angular.dev/tutorial)
+**Learning Resources:**
+- Getting Started with Angular (MDN)  
+  https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started
+- Angular Official Tutorial  
+  https://angular.dev/tutorial
 
-**Activities:**
-- Follow a To-Do app tutorial
-- Use Copilot to generate component logic and HTML
-- Refresh TypeScript + HTML/CSS basics if needed
+**Hands-on Activities:**
+- Build a simple To-Do application
+- Use GitHub Copilot to generate:
+  - Components
+  - Services
+  - HTML templates
+- Refresh:
+  - TypeScript basics
+  - HTML / CSS fundamentals
 
 ---
 
-## 🗓 Week 4: Java + Angular Full-Stack CRUD App
+## 🟦 Phase 3: Java + Angular Full-Stack CRUD Application
 
 **Goals:**
-- Build your first full-stack app
+- Build a complete full-stack application
 - Connect Angular frontend with Spring Boot backend
+- Apply AI-assisted TDD
 
-**Resources:**
-- [Spring Boot + Angular CRUD Tutorial (HowToDoInJava)](https://howtodoinjava.com/spring-boot/angular-crud-example/)
-- [GitHub Blog: TDD with Copilot](https://github.blog/2022-11-03-ai-code-generation-for-test-driven-development/)
+**Learning Resources:**
+- Spring Boot + Angular CRUD Example  
+  https://howtodoinjava.com/spring-boot/angular-crud-example/
+- AI Code Generation for Test-Driven Development  
+  https://github.blog/2022-11-03-ai-code-generation-for-test-driven-development/
 
-**Activities:**
-- Build a user management system (CRUD)
-- Use Copilot to scaffold service/repo code
-- Try TDD for backend with Copilot-generated tests
-
----
-
-## 🗓 Week 5: DevOps Tools + Codespaces + GitHub CLI
-
-**Goals:**
-- Learn GitHub Codespaces and CLI
-- Understand dev containers and automation basics
-
-**Resources:**
-- [GitHub Codespaces Java Setup](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces)
-- [Taking Angular to Codespace (Dev.to)](https://dev.to/github/using-angular-with-github-codespaces-4peb)
-- [GitHub CLI Quickstart](https://cli.github.com/manual/)
-
-**Activities:**
-- Launch and develop in Codespace
-- Customize a devcontainer with Java + Angular
-- Use GitHub CLI to create issues or PRs
+**Hands-on Activities:**
+- Implement a User Management system (CRUD)
+- Scaffold:
+  - Controllers
+  - Services
+  - Repositories using Copilot
+- Write unit tests using Copilot-assisted TDD
+- Refactor code with Copilot Chat
 
 ---
 
-## 🗓 Week 6: Capstone Project (Part 1) – Setup & Backend
+## 🟦 Phase 4: Dev Environments with GitHub Codespaces & CLI
 
 **Goals:**
-- Plan and scaffold a full-stack app
-- Start implementing backend
+- Use GitHub Codespaces as the primary dev environment
+- Understand dev containers and basic automation
+- Improve GitHub workflow efficiency
 
-**Capstone Ideas:**
-- Task Manager with categories, status, due dates
+**Learning Resources:**
+- Setting up Java Projects in GitHub Codespaces  
+  https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces
+- Using Angular with GitHub Codespaces  
+  https://dev.to/github/using-angular-with-github-codespaces-4peb
+- GitHub CLI Manual  
+  https://cli.github.com/manual/
+
+**Hands-on Activities:**
+- Launch and develop inside a Codespace
+- Customize `devcontainer.json` for:
+  - Java
+  - Node.js
+  - Angular
+- Use GitHub CLI to:
+  - Create branches
+  - Open pull requests
+  - Manage issues
+
+---
+
+## 🟦 Phase 5: Capstone Project – Backend Focus
+
+**Goals:**
+- Design and scaffold a real application
+- Implement backend business logic
+- Apply AI-assisted development patterns
+
+**Capstone Project Ideas:**
+- Task Manager (categories, status, due dates)
 - Admin Dashboard for managing items
 
-**Activities:**
+**Hands-on Activities:**
 - Design REST APIs
-- Generate Spring Boot controllers, services using Copilot
-- Write tests with Copilot (TDD)
+- Generate Spring Boot:
+  - Controllers
+  - Services
+  - Repositories using Copilot
+- Write unit and integration tests (TDD)
 
 ---
 
-## 🗓 Week 7: Capstone Project (Part 2) – Frontend + AI Integration
+## 🟦 Phase 6: Capstone Project – Frontend + AI Integration
 
 **Goals:**
-- Complete frontend with Angular
-- Integrate an AI feature (e.g. task suggestion)
+- Complete Angular frontend
+- Integrate an AI-powered feature
 
-**Resources:**
-- [OpenAI API Docs](https://platform.openai.com/docs/)
-- [Telerik: Integrate GPT with Angular](https://www.telerik.com/blogs/how-to-integrate-openai-gpt-angular)
+**Learning Resources:**
+- OpenAI API Documentation  
+  https://platform.openai.com/docs/
+- Integrating GPT with Angular  
+  https://www.telerik.com/blogs/how-to-integrate-openai-gpt-angular
 
-**Activities:**
-- Build Angular components for task management
-- Call OpenAI API to suggest or summarize tasks
-- Improve UI with Copilot and Angular Material
+**Hands-on Activities:**
+- Build Angular UI for the capstone
+- Integrate AI features such as:
+  - Task suggestions
+  - Task summaries
+  - Intelligent defaults
+- Improve UX using Angular Material and Copilot
 
 ---
 
-## 🗓 Week 8: Wrap-up, Optimize, Reflect
+## 🟦 Phase 7: Wrap-Up, Optimization & Reflection
 
 **Goals:**
-- Polish the capstone
-- Document learnings
-- Use Copilot for refactoring
+- Polish the application
+- Improve quality, performance, and documentation
+- Reflect on AI-augmented workflows
 
-**Activities:**
-- Use Copilot Chat to review and optimize code
-- Finalize tests and documentation
-- Hold a team demo/showcase
+**Hands-on Activities:**
+- Use Copilot Chat for:
+  - Code review
+  - Refactoring suggestions
+- Finalize:
+  - Tests
+  - README and documentation
+- Team demo and retrospective session
 
 ---
 
-## ✅ Outcomes
+## ✅ Final Outcomes
 
-By the end of this program, your team will:
-- Understand how to use GitHub Copilot and prompt engineering
-- Build full-stack apps using Java + Angular
-- Work in GitHub Codespaces with CLI and GitHub Actions
-- Integrate real AI features in their apps
+After completing this program, developers will:
+
+- Confidently use GitHub Copilot with strong prompt engineering
+- Build and maintain full-stack Java + Angular applications
+- Work in reproducible, cloud-based dev environments
+- Apply AI for coding, testing, refactoring, and documentation
+- Integrate real AI capabilities into business applications
+
+---
+
+## 📌 Recommended Usage
+
+- Use this README as the **root documentation** for the training repo
+- Each phase can map to:
+  - A GitHub milestone
+  - A dedicated folder or branch
+- Capstone projects should be delivered as:
+  - Working applications
+  - With tests
+  - With clear documentation
+
+---
+
+Happy building 🚀
