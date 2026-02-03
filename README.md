@@ -64,12 +64,15 @@ By the end of this program, participants will be able to:
 - Learn Angular from scratch
 - Understand component-based architecture
 - Get comfortable with TypeScript + templates
+- Master performance optimization with Deferrable Views
 
 **Learning Resources:**
 - Learn Angular (Interactive Tutorial)  
   https://angular.dev/tutorials/learn-angular
 - Build your first Angular App  
   https://angular.dev/tutorials/first-app
+- Deferrable Views Tutorial  
+  https://angular.dev/tutorials/learn-angular/10-deferrable-views
 
 **Hands-on Activities:**
 - Build a simple To-Do application (following the First App tutorial)
@@ -77,6 +80,7 @@ By the end of this program, participants will be able to:
   - Components
   - Services
   - HTML templates
+- Practice using `@defer` blocks to lazy load components.
 - Refresh:
   - TypeScript basics
   - HTML / CSS fundamentals
@@ -122,8 +126,8 @@ By the end of this program, participants will be able to:
 **Learning Resources:**
 - Setting up Java Projects in GitHub Codespaces  
   https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces
-- Using Angular with GitHub Codespaces  
-  https://dev.to/github/using-angular-with-github-codespaces-4peb
+- Taking Your Angular App to Code Space (Dev.to)  
+  https://dev.to/pbouillon/taking-your-angular-app-to-code-space-1p6
 - GitHub CLI Manual  
   https://cli.github.com/manual/
 
@@ -140,32 +144,46 @@ By the end of this program, participants will be able to:
 
 ---
 
-## 🟦 Phase 5: Capstone Project – Backend Focus
+## 🟦 Phase 5: Capstone Project – Innovation & Backend Architecture
 
 **Goals:**
-- Design and scaffold a real application
-- Implement backend business logic
-- Apply AI-assisted development patterns
+- **Conceptualize a unique product:** Participants must choose a project from their own imagination or business needs.
+- Design the API architecture and database schema.
+- Implement the backend business logic using Spring Boot and AI-assisted patterns.
 
-**Capstone Project Ideas:**
-- Task Manager (categories, status, due dates)
-- Admin Dashboard for managing items
+**Capstone Challenge:**
+*Choose a problem you want to solve and build it. Do not just build a To-Do list. Build something helpful, creative, or fun.*
+
+**Inspiration & Examples:**
+1.  **Smart Travel Planner:**
+    * *Core:* CRUD for destinations and dates.
+    * *AI Feature:* Generate daily itineraries based on user interests.
+2.  **Corporate Knowledge Base:**
+    * *Core:* Document upload and categorization.
+    * *AI Feature:* "Chat with your docs" or auto-summarization of uploaded PDFs.
+3.  **Intelligent Recipe Vault:**
+    * *Core:* Inventory management of ingredients in your fridge.
+    * *AI Feature:* Suggest recipes based strictly on available inventory.
+4.  **Dev Team Standup Assistant:**
+    * *Core:* Input form for daily updates (Yesterday, Today, Blockers).
+    * *AI Feature:* Auto-generate a weekly summary report for management.
+5.  **Language Learning Flashcards:**
+    * *Core:* Deck management and spaced repetition logic.
+    * *AI Feature:* Auto-generate example sentences or check if the user's spoken pronunciation/grammar is correct (Speech-to-Text).
 
 **Hands-on Activities:**
-- Design REST APIs
-- Generate Spring Boot:
-  - Controllers
-  - Services
-  - Repositories using Copilot
-- Write unit and integration tests (TDD)
+- Draft a 1-page spec of your unique idea.
+- Design REST APIs.
+- Generate Spring Boot Controllers, Services, and Repositories using Copilot.
+- Write unit and integration tests (TDD).
 
 ---
 
-## 🟦 Phase 6: Capstone Project – Frontend + AI Integration
+## 🟦 Phase 6: Capstone Project – Frontend Realization & AI Integration
 
 **Goals:**
-- Complete Angular frontend
-- Integrate an AI-powered feature
+- Bring the unique idea to life with an Angular frontend.
+- Integrate a specific AI feature that adds "Magic" to the application.
 
 **Learning Resources:**
 - OpenAI API Documentation  
@@ -174,12 +192,10 @@ By the end of this program, participants will be able to:
   https://www.telerik.com/blogs/how-to-integrate-openai-gpt-angular
 
 **Hands-on Activities:**
-- Build Angular UI for the capstone
-- Integrate AI features such as:
-  - Task suggestions
-  - Task summaries
-  - Intelligent defaults
-- Improve UX using Angular Material and Copilot
+- Build the Angular UI for your custom application.
+- Integrate the AI feature defined in Phase 5 (e.g., summarization, generation, recommendation).
+- Focus on User Experience (UX)—how does the AI help the user without being intrusive?
+- Use Angular Material and Copilot to speed up UI development.
 
 ---
 
