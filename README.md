@@ -188,8 +188,8 @@ By the end of this program, participants will be able to:
 **Learning Resources:**
 - OpenAI API Documentation  
   https://platform.openai.com/docs/
-- Integrating GPT with Angular  
-  https://www.telerik.com/blogs/how-to-integrate-openai-gpt-angular
+- From Zero to Wow: Building a Beginner-Friendly Angular GPT AI-Powered App  
+  https://dev.to/this-is-angular/from-zero-to-wow-building-a-beginner-friendly-angular-gpt-powered-app-1j1n
 
 **Hands-on Activities:**
 - Build the Angular UI for your custom application.
