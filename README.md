@@ -66,13 +66,13 @@ By the end of this program, participants will be able to:
 - Get comfortable with TypeScript + templates
 
 **Learning Resources:**
-- Getting Started with Angular (MDN)  
-  https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started
-- Angular Official Tutorial  
-  https://angular.dev/tutorial
+- Learn Angular (Interactive Tutorial)  
+  https://angular.dev/tutorials/learn-angular
+- Build your first Angular App  
+  https://angular.dev/tutorials/first-app
 
 **Hands-on Activities:**
-- Build a simple To-Do application
+- Build a simple To-Do application (following the First App tutorial)
 - Use GitHub Copilot to generate:
   - Components
   - Services
@@ -89,18 +89,23 @@ By the end of this program, participants will be able to:
 - Build a complete full-stack application
 - Connect Angular frontend with Spring Boot backend
 - Apply AI-assisted TDD
+- Implement robust backend services
 
 **Learning Resources:**
-- Spring Boot + Angular CRUD Example  
-  https://howtodoinjava.com/spring-boot/angular-crud-example/
-- AI Code Generation for Test-Driven Development  
-  https://github.blog/2022-11-03-ai-code-generation-for-test-driven-development/
+- Building a RESTful Web Service  
+  https://spring.io/guides/gs/rest-service
+- Consuming a RESTful Web Service  
+  https://spring.io/guides/gs/consuming-rest
+- Building an Application with Spring Boot Actuator  
+  https://spring.io/guides/gs/actuator-service
+- Creating Asynchronous Methods  
+  https://spring.io/guides/gs/async-method
 
 **Hands-on Activities:**
 - Implement a User Management system (CRUD)
 - Scaffold:
-  - Controllers
-  - Services
+  - Controllers (REST endpoints)
+  - Services (Async methods where applicable)
   - Repositories using Copilot
 - Write unit tests using Copilot-assisted TDD
 - Refactor code with Copilot Chat
