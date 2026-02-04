@@ -1,43 +1,45 @@
-## 🧠 Capstone Project 1 – Peer Review: Fact-Checking Auditor
+# 🧠 Capstone Project – Peer Review: AI-Augmented Full-Stack App
 
-**Candidate Name:**  
-**Date:**  
-**Project Link (GitHub or Demo):**  
+**Candidate Name:** **Date:** **Project Link (GitHub or Demo):** ---
 
 ### Reviewer 1
-| Trait                          | Rating (1-5) | Comments |
-|-------------------------------|--------------|----------|
-| Technical Accuracy            |              |          |
-| Agentic Design                |              |          |
-| Use of External Tools/Data    |              |          |
-| Domain Relevance              |              |          |
-| AI Reasoning & Prompts        |              |          |
-| Code Quality & Engineering    |              |          |
-| Demo & Communication          |              |          |
+| Trait | Rating (1-5) | Comments |
+| :--- | :--- | :--- |
+| **Full-Stack Integration**<br>*(Spring Boot + Angular connection, REST standards)* | | |
+| **AI Feature ("The Magic")**<br>*(Effective integration of LLM API for UX value)* | | |
+| **Frontend Architecture**<br>*(Use of `@defer`, Signals, & Component design)* | | |
+| **Testing Strategy**<br>*(Coverage, AI-generated unit tests, TDD evidence)* | | |
+| **Copilot Utilization**<br>*(Refactoring quality, clean code, lack of "boilerplate")* | | |
+| **Dev Environment**<br>*(Reproducibility via `devcontainer.json` & Codespaces)* | | |
+| **Demo & Product Value**<br>*(Does it solve the problem? Is the UX intuitive?)* | | |
+
+---
 
 ### Reviewer 2
-| Trait                          | Rating (1-5) | Comments |
-|-------------------------------|--------------|----------|
-| Technical Accuracy            |              |          |
-| Agentic Design                |              |          |
-| Use of External Tools/Data    |              |          |
-| Domain Relevance              |              |          |
-| AI Reasoning & Prompts        |              |          |
-| Code Quality & Engineering    |              |          |
-| Demo & Communication          |              |          |
+| Trait | Rating (1-5) | Comments |
+| :--- | :--- | :--- |
+| **Full-Stack Integration**<br>*(Spring Boot + Angular connection, REST standards)* | | |
+| **AI Feature ("The Magic")**<br>*(Effective integration of LLM API for UX value)* | | |
+| **Frontend Architecture**<br>*(Use of `@defer`, Signals, & Component design)* | | |
+| **Testing Strategy**<br>*(Coverage, AI-generated unit tests, TDD evidence)* | | |
+| **Copilot Utilization**<br>*(Refactoring quality, clean code, lack of "boilerplate")* | | |
+| **Dev Environment**<br>*(Reproducibility via `devcontainer.json` & Codespaces)* | | |
+| **Demo & Product Value**<br>*(Does it solve the problem? Is the UX intuitive?)* | | |
+
+---
 
 ### Reviewer 3
-| Trait                          | Rating (1-5) | Comments |
-|-------------------------------|--------------|----------|
-| Technical Accuracy            |              |          |
-| Agentic Design                |              |          |
-| Use of External Tools/Data    |              |          |
-| Domain Relevance              |              |          |
-| AI Reasoning & Prompts        |              |          |
-| Code Quality & Engineering    |              |          |
-| Demo & Communication          |              |          |
+| Trait | Rating (1-5) | Comments |
+| :--- | :--- | :--- |
+| **Full-Stack Integration**<br>*(Spring Boot + Angular connection, REST standards)* | | |
+| **AI Feature ("The Magic")**<br>*(Effective integration of LLM API for UX value)* | | |
+| **Frontend Architecture**<br>*(Use of `@defer`, Signals, & Component design)* | | |
+| **Testing Strategy**<br>*(Coverage, AI-generated unit tests, TDD evidence)* | | |
+| **Copilot Utilization**<br>*(Refactoring quality, clean code, lack of "boilerplate")* | | |
+| **Dev Environment**<br>*(Reproducibility via `devcontainer.json` & Codespaces)* | | |
+| **Demo & Product Value**<br>*(Does it solve the problem? Is the UX intuitive?)* | | |
+
+---
 
 ### 🟢 Summary
-- Average Score:  
-- Highlights:  
-- Suggested Improvements:  
+- **Average Score:** - **Highlights:** - **Suggested Improvements:** ```
