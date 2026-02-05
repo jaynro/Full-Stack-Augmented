@@ -39,7 +39,7 @@ The objective is to transition from *traditional backend development* to **AI-au
 
 * [Fundamentals of Generative AI (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)
 * [Prompt Engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
-
+* [Accelerate App Dev with GitHub Copilot – Module 1](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/)
 ---
 
 ## 🟦 Phase 2: Angular Architecture & Deferrable Views
