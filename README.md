@@ -1,5 +1,3 @@
-Here is the updated README. It adapts your existing Java/Angular content into the high-accountability, practitioner-focused rubric you requested.
-
 ---
 
 # AI-Augmented Full-Stack Engineering Training
@@ -26,6 +24,21 @@ The objective is to transition from *traditional backend development* to **AI-au
 ---
 
 ## 🟢 Phase 1: The AI-Native Foundation
+
+### 💰 Free Tier & Usage Notes
+
+#### Copilot Free
+
+This is the default for any GitHub user. It requires no credit card and no application.
+
+1. **Sign In:** Log into your GitHub account on the web.
+2. **IDE Setup:** Open VS Code or Visual Studio.
+3. **Install Extension:** Search the Marketplace for "GitHub Copilot."
+4. **Activate:** Click the profile icon in the bottom left of your IDE and select **"Sign in with GitHub to use Copilot."**
+5. **Status:** You will be automatically enrolled in the **Copilot Free** plan.
+
+- **GitHub Copilot Free:** As of 2026, GitHub offers a **Free Tier** for individuals. It includes **2,000 code completions** and **50 Chat/Premium requests** per month.
+- **Best Practice:** Use "Inline Completions" for boilerplate, but save your "Chat" requests for complex refactoring to avoid hitting the 50-request cap on the Free plan.
 
 **Mission:** Stop coding manually. Start coding intentionally. You will configure your AI environment and master the art of prompt engineering to accelerate your velocity.
 
