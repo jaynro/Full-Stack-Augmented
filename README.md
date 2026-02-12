@@ -1,5 +1,3 @@
----
-
 # AI-Augmented Full-Stack Engineering Training
 
 **Welcome to the AI-Augmented Full-Stack Engineering training.**
